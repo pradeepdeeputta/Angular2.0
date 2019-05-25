@@ -1,15 +1,16 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import { FormsModule }  from '@angular/forms';
+
 import { AppComponent } from './app.component';
-import { CourseCardComponent } from './course-card/course-card.component';
-import { EmployeeComponent } from './employee/employee.component';
+import { HeroFormComponent } from './hero-form/hero-form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CourseCardComponent,
-    EmployeeComponent
+    FormsModule
+
   ],
   imports: [
     BrowserModule
